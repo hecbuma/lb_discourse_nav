@@ -1,0 +1,45 @@
+#lb-menu{
+  float: left;
+  a{
+    color: rgb(94, 2, 126);
+  }
+  ul{
+    margin-top: 12px;
+  }
+  li{
+    display: inline;
+    list-style-type: none;
+    padding:0px 50px;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    .fa-caret-down{
+      margin-left: 5px;
+    }
+    .lb-submenu{
+      background: white;
+      border-bottom: 1px solid grey;
+      padding: 10px 20px;
+      line-height: 29px;
+      width: 200px;
+      position: absolute;
+      display: none;
+      margin: 0px;
+      left: 30px;
+      top: 16px;
+      li{
+        display: block;
+        color: #666;
+        padding-left: 0px;
+        font-weight: 400;
+        a{
+          color: #666;
+          &:hover{
+            color: rgb(94, 2, 126);
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
