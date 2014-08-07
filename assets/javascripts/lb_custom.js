@@ -11,6 +11,10 @@ $(function(){
   $(document).on('mouseleave','li.lb-nav', function(){
     $(this).find('ul.lb-submenu').hide();
   });
+
+  $('#site-logo').on('click', function(){
+    window.location = 'http://littlebits.cc';
+  });
 });
 
 
