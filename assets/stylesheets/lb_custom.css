@@ -21,6 +21,9 @@
 .d-header{
   height: 80px;
 }
+#main-outlet {
+  padding-top: 100px;
+}
 #lb-menu{
   font-family: 'Futura Round';
   font-size: 16px;
