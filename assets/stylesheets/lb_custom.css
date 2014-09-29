@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'Futura Round';
-  src: font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundBook.eot');
-  src: font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundBook.eot#iefix') format('embedded-opentype'),
-  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundBook.woff') format('woff'),
-  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundBook.ttf') format('truetype'),
-  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundBook.svg#futura_round_bookregular') format('svg');
+  src: url('https://s3.amazonaws.com/media.littlebits.cc/fonts/futura-rounded/FuturaRoundBook.eot');
+  src: url('https://s3.amazonaws.com/media.littlebits.cc/fonts/futura-rounded/FuturaRoundBook.eot#iefix') format('embedded-opentype'),
+  url('https://s3.amazonaws.com/media.littlebits.cc/fonts/futura-rounded/FuturaRoundBook.woff') format('woff'),
+  url('https://s3.amazonaws.com/media.littlebits.cc/fonts/futura-rounded/FuturaRoundBook.ttf') format('truetype'),
+  url('https://s3.amazonaws.com/media.littlebits.cc/fonts/futura-rounded/FuturaRoundBook.svg#futura_round_bookregular') format('svg');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Futura Round';
-  src: font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundDemi.eot');
-  src: font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundDemi.eot#iefix') format('embedded-opentype'),
-  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundDemi.woff') format('woff'),
-  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundDemi.ttf') format('truetype'),
-  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundDemi.svg#futura_round_demibold') format('svg');
+  src: url('https://s3.amazonaws.com/media.littlebits.cc/fonts/futura-rounded/FuturaRoundDemi.eot');
+  src: url('https://s3.amazonaws.com/media.littlebits.cc/fonts/futura-rounded/FuturaRoundDemi.eot#iefix') format('embedded-opentype'),
+  url('https://s3.amazonaws.com/media.littlebits.cc/fonts/futura-rounded/FuturaRoundDemi.woff') format('woff'),
+  url('https://s3.amazonaws.com/media.littlebits.cc/fonts/futura-rounded/FuturaRoundDemi.ttf') format('truetype'),
+  url('https://s3.amazonaws.com/media.littlebits.cc/fonts/futura-rounded/FuturaRoundDemi.svg#futura_round_demibold') format('svg');
   font-weight: 600;
   font-style: normal;
 }
