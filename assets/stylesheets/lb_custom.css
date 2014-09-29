@@ -1,10 +1,32 @@
+@font-face {
+  font-family: 'Futura Round';
+  src: font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundBook.eot');
+  src: font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundBook.eot#iefix') format('embedded-opentype'),
+  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundBook.woff') format('woff'),
+  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundBook.ttf') format('truetype'),
+  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundBook.svg#futura_round_bookregular') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Futura Round';
+  src: font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundDemi.eot');
+  src: font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundDemi.eot#iefix') format('embedded-opentype'),
+  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundDemi.woff') format('woff'),
+  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundDemi.ttf') format('truetype'),
+  font_url('http://littlebits.cc/assets/futura-rounded/FuturaRoundDemi.svg#futura_round_demibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
 #lb-menu{
+  font-family: 'Futura Round';
   float: left;
   a{
     color: rgb(94, 2, 126);
   }
   ul{
     margin-top: 12px;
+    font-weight: 600;
   }
   li{
     display: inline;
@@ -34,6 +56,7 @@
         font-weight: 400;
         a{
           color: #666;
+          font-weight:300;
           &:hover{
             color: rgb(94, 2, 126);
             text-decoration: underline;
