@@ -18,8 +18,12 @@
   font-weight: 600;
   font-style: normal;
 }
+.d-header{
+  height: 80px;
+}
 #lb-menu{
   font-family: 'Futura Round';
+  font-size: 16px;
   float: left;
   a{
     color: rgb(94, 2, 126);
